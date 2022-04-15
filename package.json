@@ -1,0 +1,22 @@
+{
+  "name": "assetmanager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prova": "npx tsc prova.ts && node prova.js",
+    "buf": "npx tsc buff_test.ts && node buff_test.js",
+    "prova2": "npx tsc prova2.ts && node prova2.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "@liskhq/lisk-client": "^5.2.1",
+    "@liskhq/lisk-cryptography": "^3.2.0",
+    "express": "^4.17.3"
+  }
+}
